@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HIUISlidingTabView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <HIUISlidingTabViewDataSource, HIUISlidingTabViewDelegate>
+{
+    HIUISlidingTabView* _slidingTabView;
+}
 
 
 @end

@@ -14,6 +14,11 @@
 		1EE04C7C1D1ADE56003F6EBE /* HIUISlidingTabViewSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C7A1D1ADE56003F6EBE /* HIUISlidingTabViewSample.xcdatamodeld */; };
 		1EE04C7E1D1ADE56003F6EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C7D1D1ADE56003F6EBE /* Assets.xcassets */; };
 		1EE04C811D1ADE56003F6EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE04C7F1D1ADE56003F6EBE /* LaunchScreen.storyboard */; };
+		1EE04C9A1D1ADECF003F6EBE /* SampleLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C991D1ADECF003F6EBE /* SampleLayoutManager.m */; };
+		1EE04CA01D1ADFC1003F6EBE /* SampleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04C9F1D1ADFC1003F6EBE /* SampleContentView.m */; };
+		1EE04CA71D1AE252003F6EBE /* SampleTextBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CA61D1AE252003F6EBE /* SampleTextBarButtonItem.m */; };
+		1EE04CB11D1AED20003F6EBE /* HIUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CAA1D1AED20003F6EBE /* HIUIBarButtonItem.m */; };
+		1EE04CB21D1AED20003F6EBE /* HIUISlidingTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE04CAC1D1AED20003F6EBE /* HIUISlidingTabView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,20 @@
 		1EE04C7D1D1ADE56003F6EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE04C801D1ADE56003F6EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EE04C821D1ADE56003F6EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE04C981D1ADECF003F6EBE /* SampleLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleLayoutManager.h; sourceTree = "<group>"; };
+		1EE04C991D1ADECF003F6EBE /* SampleLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleLayoutManager.m; sourceTree = "<group>"; };
+		1EE04C9E1D1ADFC1003F6EBE /* SampleContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleContentView.h; sourceTree = "<group>"; };
+		1EE04C9F1D1ADFC1003F6EBE /* SampleContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleContentView.m; sourceTree = "<group>"; };
+		1EE04CA51D1AE252003F6EBE /* SampleTextBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTextBarButtonItem.h; sourceTree = "<group>"; };
+		1EE04CA61D1AE252003F6EBE /* SampleTextBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTextBarButtonItem.m; sourceTree = "<group>"; };
+		1EE04CA91D1AED20003F6EBE /* HIUIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUIBarButtonItem.h; sourceTree = "<group>"; };
+		1EE04CAA1D1AED20003F6EBE /* HIUIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUIBarButtonItem.m; sourceTree = "<group>"; };
+		1EE04CAB1D1AED20003F6EBE /* HIUISlidingTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUISlidingTabView.h; sourceTree = "<group>"; };
+		1EE04CAC1D1AED20003F6EBE /* HIUISlidingTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIUISlidingTabView.m; sourceTree = "<group>"; };
+		1EE04CAD1D1AED20003F6EBE /* HIUISlidingTabViewContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUISlidingTabViewContentView.h; sourceTree = "<group>"; };
+		1EE04CAE1D1AED20003F6EBE /* HIUISlidingTabViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUISlidingTabViewDataSource.h; sourceTree = "<group>"; };
+		1EE04CAF1D1AED20003F6EBE /* HIUISlidingTabViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUISlidingTabViewDelegate.h; sourceTree = "<group>"; };
+		1EE04CB01D1AED20003F6EBE /* HIUISlidingTabViewLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIUISlidingTabViewLayoutManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,10 @@
 		1EE04C6D1D1ADE56003F6EBE /* HIUISlidingTabViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				1EE04C881D1ADE78003F6EBE /* libs */,
+				1EE04C961D1ADEB5003F6EBE /* layout manager */,
+				1EE04C971D1ADEBA003F6EBE /* content view */,
+				1EE04CA41D1AE23E003F6EBE /* barbutton */,
 				1EE04C711D1ADE56003F6EBE /* AppDelegate.h */,
 				1EE04C721D1ADE56003F6EBE /* AppDelegate.m */,
 				1EE04C741D1ADE56003F6EBE /* ViewController.h */,
@@ -81,6 +104,58 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		1EE04C881D1ADE78003F6EBE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04CA81D1AED20003F6EBE /* HIUISlidingTabView */,
+			);
+			name = libs;
+			path = HIUISlidingTabView/libs;
+			sourceTree = SOURCE_ROOT;
+		};
+		1EE04C961D1ADEB5003F6EBE /* layout manager */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04C981D1ADECF003F6EBE /* SampleLayoutManager.h */,
+				1EE04C991D1ADECF003F6EBE /* SampleLayoutManager.m */,
+			);
+			name = "layout manager";
+			sourceTree = "<group>";
+		};
+		1EE04C971D1ADEBA003F6EBE /* content view */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04C9E1D1ADFC1003F6EBE /* SampleContentView.h */,
+				1EE04C9F1D1ADFC1003F6EBE /* SampleContentView.m */,
+			);
+			name = "content view";
+			sourceTree = "<group>";
+		};
+		1EE04CA41D1AE23E003F6EBE /* barbutton */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04CA51D1AE252003F6EBE /* SampleTextBarButtonItem.h */,
+				1EE04CA61D1AE252003F6EBE /* SampleTextBarButtonItem.m */,
+			);
+			name = barbutton;
+			sourceTree = "<group>";
+		};
+		1EE04CA81D1AED20003F6EBE /* HIUISlidingTabView */ = {
+			isa = PBXGroup;
+			children = (
+				1EE04CA91D1AED20003F6EBE /* HIUIBarButtonItem.h */,
+				1EE04CAA1D1AED20003F6EBE /* HIUIBarButtonItem.m */,
+				1EE04CAB1D1AED20003F6EBE /* HIUISlidingTabView.h */,
+				1EE04CAC1D1AED20003F6EBE /* HIUISlidingTabView.m */,
+				1EE04CAD1D1AED20003F6EBE /* HIUISlidingTabViewContentView.h */,
+				1EE04CAE1D1AED20003F6EBE /* HIUISlidingTabViewDataSource.h */,
+				1EE04CAF1D1AED20003F6EBE /* HIUISlidingTabViewDelegate.h */,
+				1EE04CB01D1AED20003F6EBE /* HIUISlidingTabViewLayoutManager.h */,
+			);
+			name = HIUISlidingTabView;
+			path = HIUISlidingTabViewSample/libs/HIUISlidingTabView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -153,8 +228,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE04C761D1ADE56003F6EBE /* ViewController.m in Sources */,
+				1EE04CB21D1AED20003F6EBE /* HIUISlidingTabView.m in Sources */,
 				1EE04C731D1ADE56003F6EBE /* AppDelegate.m in Sources */,
+				1EE04C9A1D1ADECF003F6EBE /* SampleLayoutManager.m in Sources */,
+				1EE04CA71D1AE252003F6EBE /* SampleTextBarButtonItem.m in Sources */,
 				1EE04C7C1D1ADE56003F6EBE /* HIUISlidingTabViewSample.xcdatamodeld in Sources */,
+				1EE04CB11D1AED20003F6EBE /* HIUIBarButtonItem.m in Sources */,
+				1EE04CA01D1ADFC1003F6EBE /* SampleContentView.m in Sources */,
 				1EE04C701D1ADE56003F6EBE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
