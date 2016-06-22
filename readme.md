@@ -4,8 +4,8 @@ Sliding contents view by swiping or tap menu.
 
 ## Screenshot
 
-![alt tag](https://github.com/shkimturf/HIUISlidingTabView/blob/master/preview_top.gif?raw=true)
-![alt tag](https://github.com/shkimturf/HIUISlidingTabView/blob/master/preview_bottom.gif?raw=true)
+![alt tag](https://github.com/shkimturf/HIUISlidingTabView/blob/master/preview_top.gif?raw=true =250px)
+![alt tag](https://github.com/shkimturf/HIUISlidingTabView/blob/master/preview_bottom.gif?raw=true =250px)
 
 ## Environments
 
